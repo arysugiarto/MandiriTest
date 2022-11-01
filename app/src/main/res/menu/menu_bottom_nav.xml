@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:title="@string/nav_home"
+        android:contentDescription="@string/nav_home"
+        android:icon="@drawable/ic_baseline_home"/>
+
+    <item
+        android:id="@+id/profile"
+        android:title="@string/nav_profile"
+        android:contentDescription="@string/nav_profile"
+        android:icon="@drawable/ic_baseline_account_circle" />
+</menu>
