@@ -239,7 +239,6 @@ fun TextView.setDrawable(
     )
 }
 
-//add by ary
 // Input Processing
 @JvmName("getTextFunction")
 fun TextInputLayout.getText(): String =
@@ -251,10 +250,7 @@ fun TextInputLayout.warn(boxName: CharSequence? = "") {
     error = "Mohon isi kolom $boxName"
 }
 
-/**
- * Hiding Input Manager for Keyboard Action
- * @author [Iga]
- */
+
 fun Activity?.hideKeyboard(view: View) {
     val imm = this?.getSystemService(Context.INPUT_METHOD_SERVICE) as? InputMethodManager
     imm?.hideSoftInputFromWindow(view.windowToken, 0)

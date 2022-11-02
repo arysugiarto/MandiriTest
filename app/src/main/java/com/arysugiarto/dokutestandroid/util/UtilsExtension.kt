@@ -47,10 +47,6 @@ fun Int.getRandomAlphabet(): String {
     return sb.toString()
 }
 
-/**
- * @author [Iga Noviyanti Rohman]
- * Return Session Id for login params, as per 2/03/2021 login api needs params session_id
- */
 fun getSessionId() : String {
     val tsLong = System.currentTimeMillis() / 1000
     val ts = tsLong.toString()

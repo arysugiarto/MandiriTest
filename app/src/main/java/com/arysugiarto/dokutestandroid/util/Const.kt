@@ -10,8 +10,11 @@ object Const {
         const val PREFIX = "v2/"
         const val SESSION_ID = "session_id"
         const val EQUALS = "="
+        const val APIKEY ="9d22ee2c317f440cb7c5fca60f7e7255"
 
-        const val News = PREFIX + "top-headlines?country=us&category=business&apiKey=9d22ee2c317f440cb7c5fca60f7e7255"
+        const val News = PREFIX + "top-headlines?country=us&category=business&apiKey" + EQUALS + APIKEY
+
+        const val AppleNews = PREFIX + "everything?q=apple&from=2022-11-01&to=2022-11-01&sortBy=popularity&apiKey" + EQUALS + APIKEY
 
         object Media {
             const val UPLOAD = PREFIX_GENERAL + "file"

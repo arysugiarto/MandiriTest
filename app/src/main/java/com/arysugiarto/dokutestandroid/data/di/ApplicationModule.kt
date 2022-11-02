@@ -5,7 +5,9 @@ import android.content.Context
 import com.google.android.play.core.review.ReviewManagerFactory
 import com.arysugiarto.dokutestandroid.data.preferences.AccessManager
 import com.arysugiarto.dokutestandroid.data.remote.api.ApiCallback
+import com.arysugiarto.dokutestandroid.data.repositories.AppleNewsRepository
 import com.arysugiarto.dokutestandroid.data.repositories.HomeRepository
+import com.arysugiarto.dokutestandroid.data.source.data.AppleNewsRemoteDataSource
 import com.arysugiarto.dokutestandroid.data.source.data.HomeRemoteDataSource
 import dagger.Module
 import dagger.Provides
@@ -35,6 +37,13 @@ object ApplicationModule {
         apiCallback: ApiCallback
     ) = HomeRepository(
         HomeRemoteDataSource(apiCallback)
+    )
+
+    @Provides
+    fun provideAppleNewsRepository(
+        apiCallback: ApiCallback
+    ) = AppleNewsRepository(
+        AppleNewsRemoteDataSource(apiCallback)
     )
 
 }

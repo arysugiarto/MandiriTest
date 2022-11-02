@@ -9,5 +9,7 @@
     <string name="title">Doku Berita</string>
     <string name="title_article">Tittle nya</string>
     <string name="detail_title">Detail News</string>
+    <string name="nav_apple">Apple News</string>
+    <string name="nav_top">Top Bussines</string>
 
 </resources>

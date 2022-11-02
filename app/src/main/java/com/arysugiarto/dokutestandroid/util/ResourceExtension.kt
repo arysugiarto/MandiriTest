@@ -70,11 +70,3 @@ fun Context?.dimen(@DimenRes dimenRes: Int) =
 
 fun Context?.dimenPixelSize(@DimenRes dimenRes: Int) =
     this?.resources?.getDimensionPixelSize(dimenRes)
-
-// Todo : Fix Return Invocation
-/*inline fun <reified T> Context.array(@ArrayRes arrayRes: Int): Array<T> = when(T::class) {
-        Int::class -> resources.getIntArray(arrayRes)
-        String::class -> resources.getStringArray(arrayRes)
-        CharSequence::class -> resources.getTextArray(arrayRes)
-        else -> throw IllegalStateException("Unknown Array Class")
-}*/

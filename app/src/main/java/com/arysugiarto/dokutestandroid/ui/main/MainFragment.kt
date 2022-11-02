@@ -2,17 +2,12 @@ package com.arysugiarto.dokutestandroid.ui.main
 
 import android.os.Bundle
 import android.view.View
-import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.NavHostFragment
-import androidx.navigation.ui.NavigationUI
-import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.arysugiarto.dokutestandroid.R
 import com.arysugiarto.dokutestandroid.databinding.FragmentMainBinding
-import com.arysugiarto.dokutestandroid.ui.main.MainActivity.Companion.reInflateMainNavGraph
 import com.arysugiarto.dokutestandroid.util.BackButtonBehaviour
-import com.arysugiarto.dokutestandroid.util.color
 import com.arysugiarto.dokutestandroid.util.setupWithNavController
 import com.arysugiarto.dokutestandroid.util.viewBinding
 import dagger.hilt.android.AndroidEntryPoint
@@ -27,7 +22,7 @@ class MainFragment : Fragment(R.layout.fragment_main) {
 
     private val resMainToolbarId = mutableListOf(
         R.id.home_fragment,
-        R.id.profile_fragment
+        R.id.apple_fragment
     )
 
     private val resToolbarId = mutableListOf(
@@ -57,7 +52,7 @@ class MainFragment : Fragment(R.layout.fragment_main) {
         // Todo : Change graph when declared graph not used
         val navGraphIds = listOf(
             R.navigation.nav_home_graph,
-            R.navigation.nav_profile_graph
+            R.navigation.nav_apple_graph
         )
 
         val controller = binding.bottomNavigation.setupWithNavController(

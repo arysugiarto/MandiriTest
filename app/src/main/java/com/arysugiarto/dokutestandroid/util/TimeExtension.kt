@@ -1,10 +1,8 @@
 package com.arysugiarto.dokutestandroid.util
 
-import android.text.format.DateUtils
-import android.widget.TextView
 import androidx.fragment.app.FragmentManager
-import com.google.android.material.datepicker.*
 import com.arysugiarto.dokutestandroid.R
+import com.google.android.material.datepicker.*
 import timber.log.Timber
 import java.text.SimpleDateFormat
 import java.util.*
