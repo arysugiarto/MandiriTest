@@ -20,15 +20,6 @@ class MainFragment : Fragment(R.layout.fragment_main) {
 
     private val binding by viewBinding<FragmentMainBinding>()
 
-    private val resMainToolbarId = mutableListOf(
-        R.id.home_fragment,
-        R.id.apple_fragment
-    )
-
-    private val resToolbarId = mutableListOf(
-        R.id.home_fragment,
-    )
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
