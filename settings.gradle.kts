@@ -1,2 +1,2 @@
-rootProject.name = "Doku Test"
+rootProject.name = "Mandiri Test"
 include(":app")

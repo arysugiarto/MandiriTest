@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/apple_fragment"
-        android:name="com.arysugiarto.dokutestandroid.ui.applenews.AppleNewsFragment"
+        android:name="com.arysugiarto.mandiritest.ui.applenews.AppleNewsFragment"
         tools:layout="@layout/fragment_apple_news" >
 
         <action
@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/detail_fragment"
-        android:name="com.arysugiarto.dokutestandroid.ui.detail.DetailAppleNewsFragment"
+        android:name="com.arysugiarto.mandiritest.ui.detail.DetailAppleNewsFragment"
         tools:layout="@layout/fragment_details">
 
         <argument

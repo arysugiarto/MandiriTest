@@ -37,7 +37,7 @@
                 android:id="@+id/source"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/red"
+                android:backgroundTint="@color/blue"
                 android:elevation="@dimen/zero_margin"
                 app:cardCornerRadius="@dimen/_8sdp"
                 app:cardElevation="@dimen/zero_margin"

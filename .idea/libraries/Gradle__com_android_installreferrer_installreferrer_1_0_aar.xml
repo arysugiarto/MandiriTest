@@ -5,7 +5,6 @@
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c620a3cde6f9c9346a974bceed46a8f4/transformed/jetified-installreferrer-1.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c620a3cde6f9c9346a974bceed46a8f4/transformed/jetified-installreferrer-1.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c620a3cde6f9c9346a974bceed46a8f4/transformed/jetified-installreferrer-1.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>

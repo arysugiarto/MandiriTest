@@ -148,15 +148,6 @@ object Dependencies {
         const val espresso = "androidx.test.espresso:espresso-core:${Version.espressoVersion}"
     }
 
-    object Firebase {
-        const val firebaseBOM = "com.google.firebase:firebase-bom:${Version.firebaseVersion}"
-        const val firebaseMessaging = "com.google.firebase:firebase-messaging-ktx"
-        const val firebaseAnalyticsKtx = "com.google.firebase:firebase-analytics-ktx"
-        const val firebaseCrashlyticsKtx = "com.google.firebase:firebase-crashlytics-ktx"
-        const val firebaseFirestore = "com.google.firebase:firebase-firestore-ktx"
-        const val firebaseAuth = "com.google.firebase:firebase-auth-ktx"
-    }
-
     val kaptImp = mutableListOf(
             Jetpack.roomKapt,
             Injection.androidCompiler,

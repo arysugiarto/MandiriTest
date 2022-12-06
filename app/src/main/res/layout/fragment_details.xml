@@ -9,7 +9,7 @@
         android:id="@+id/clDoku"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/red"
+        android:background="@color/blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -58,7 +58,7 @@
         android:layout_marginTop="@dimen/medium_margin"
         android:ellipsize="end"
         android:maxLines="2"
-        android:textColor="@color/red"
+        android:textColor="@color/blue"
         android:textSize="@dimen/_13sdp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
